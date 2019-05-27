@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    background-color: #21437a;
+    height: 945px;
+    width: 970px;
+}
+#header{
+    height: 125px;
+    height: 125px;
+}
+#logo{
+    display: inline-block;
+    margin-right: 275px;
+    padding: 20px 0px 0px 30px;
+
+}
+#logo img{
+    height: 100px;;
+}
+#right_header{
+    display: inline-block;
+    vertical-align: top;
+    height: 120px;
+}
+#size p{
+    color: white;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #F6CE45;
+    text-decoration: underline;
+}
+
+.black_line{
+    color: black;
+}
+#search{
+    background-color: rgb(68, 68, 68);
+    height: 45px;
+    width: 245px;
+    border-radius: 8px;
+    padding: 10px 0px 0px 40px;
+    box-shadow:3px 3px black;
+}
+#search_box{
+    display: inline-block;
+    background-color: white;
+    height: 35px;
+    width: 170px;
+    color: rgb(205, 205, 205);
+    text-align: center;
+    box-shadow:2px 2px 2px 2px rgb(215, 215, 215) inset;
+}
+#search_box p{
+    margin-top: 7px;
+}
+
+#go{
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    height: 25px;
+    width: 40px;
+    padding-top: 2px;
+    text-align: center;
+    border: 3px solid #6C6C6C;
+    border-radius: 8px;
+    box-shadow:1px 1px black;
+}
+#go p{
+    margin-top: 2px;
+}
+#navbar{
+    background-color: rgb(69, 125, 171);
+    height: 50px;
+    width: 840px;
+    margin-left: 90px;
+    border-radius: 5px;
+    box-shadow:3px 3px black;
+}
+#navbar ul{
+    list-style-type: nul;
+    text-align: center;
+}
+#navbar li{
+    display: inline-block;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin: 15px 40px 0px 0px;
+}
+#left{
+    height: 400px;
+    width: 100%
+}
+#left_list{
+    height: 350px;
+    width: 190px;
+    margin-left: 90px;
+    display: inline-block;
+}
+#left_list ul{
+    padding-top: 35px;
+}
+
+#left_list li{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    color: white;
+}
+
+#center{
+    display: inline-block;
+    height: 350px;
+    width: 630px;
+    float: none;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+    font-family: sans-serif;
+}
+#center p{
+    padding-top: 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#center ul{
+    list-style-type: none;
+}
+#center li{
+    color: yellow;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#center .white{
+    color: white;
+    font-style: normal;
+}
+#bottom{
+    height: 260px;
+    width: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 90px;
+}
+hr {
+ border-top: 6px solid #75A8D3;   
+}
+.left_column{
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    margin-right: 20px;
+}
+.right_column{
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    margin-right: 20px;
+}
+.leftcolumn_text{
+    height: 220px;
+    width: 290px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-family: sans-serif;
+}
+.rightcolumn_text{
+    height: 220px;
+    width: 290px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-family: sans-serif;
+}
+.leftcolumn_text h3{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.rightcolumn_text h3{
+    margin-top: 5px;
+    font-weight: bold;
+}
+.leftcolumn_text p{
+    font-size: 15px;
+}
+.rightcolumn_text p{
+    font-size: 15px;
+}
+.leftcolumn_text ul{
+    margin-left: 40px;
+    list-style-type: square;
+}
+.rightcolumn_text ul{
+    margin-left: 40px;
+    list-style-type: square;
+}
+.leftcolumn_text li{
+    width: 200px;
+    font-size: 14px;
+    color: #75A8D3;
+}
+.rightcolumn_text li{
+    width: 200px;
+    font-size: 14px;
+    color: #75A8D3;
+}
+span {
+    color: #75A8D3;
+}
+
+#footer{
+    width: 970px;
+    color: #75A8D3;
+    font-family: sans-serif;
+    text-align: center;
+    background: linear-gradient(to left, #373b44, #4286f4);
+}
+#footer ul{
+    margin-top: 50px;
+}
+#footer li{
+    display: inline-block;
+    margin-right: 45px;
+}
+#footer p{
+    margin-top: 20px;
+    font-size: 10px;
+}
